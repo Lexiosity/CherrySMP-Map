@@ -8,18 +8,22 @@
         body {
             font-family: 'Arial', sans-serif;
             margin: 20px;
+            line-height: 1.6;
         }
+
         header {
             text-align: center;
             padding: 20px;
             background-color: #f0f0f0;
         }
+
         nav {
             display: flex;
             justify-content: center;
             background-color: #ddd;
             padding: 10px;
         }
+
         nav a {
             text-decoration: none;
             color: #333;
@@ -29,19 +33,24 @@
             background-color: #fff;
             transition: background-color 0.3s;
         }
+
         nav a:hover {
             background-color: #f0f0f0;
         }
+
         main {
             max-width: 800px;
             margin: 20px auto;
         }
+
         h1 {
             color: #333;
         }
+
         p {
             line-height: 1.5;
         }
+
         footer {
             text-align: center;
             padding: 10px;
@@ -49,6 +58,18 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
@@ -63,7 +84,7 @@
         <a href="#nil"><s>Season 2</s></a>
         <a href="#nil"><s>Season 3</s></a>
         <a href="#nil"><s>Season 4</s></a>
-        <a href="season5.html"><s>Season 5</s></a>
+        <a href="season5.html">Season 5</a>
         <!-- Add more tabs as needed -->
     </nav>
 
