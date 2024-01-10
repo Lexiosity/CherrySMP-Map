@@ -63,19 +63,11 @@
             background-color: #0A0A0A;
             transition: background-color 0.3s;
             width: calc(33.33% - 20px); /* Adjust the width to fit three buttons in a row on mobile */
+            box-sizing: border-box; /* Add this property to include padding and margin in the element's total width */
         }
 
         .button:hover {
             background-color: #2f2f2f;
-        }
-
-
-        h1,
-        h2,
-        p,
-        ol,
-        footer {
-            color: #ffffff;
         }
 
         footer {
@@ -86,13 +78,14 @@
             bottom: 0;
             left: 0;
             right: 0;
+            width: 100%;
         }
 
+        /* Responsive styles */
         @media screen and (max-width: 600px) {
             .button {
-                width: 100%;
+                width: 100%; /* Make buttons take full width on mobile */
             }
-
         }
     </style>
 </head>
