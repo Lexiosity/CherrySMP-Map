@@ -42,16 +42,10 @@
             background-color: #2f2f2f;
         }
 
-        main {
-            max-width: 100%;
-            margin: 20px;
-            margin-bottom: 100px; /* Bottom margin adjusted to 100px */
-        }
-
-        .button-container {
+        .top-bar {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
+            align-items: center;
         }
 
         .button {
@@ -62,12 +56,16 @@
             border-radius: 5px;
             background-color: #0A0A0A;
             transition: background-color 0.3s;
-            width: 100%; /* Adjust the width to fit three buttons in a row on mobile */
-            box-sizing: border-box; /* Add this property to include padding and margin in the element's total width */
         }
 
         .button:hover {
             background-color: #2f2f2f;
+        }
+        
+        main {
+            max-width: 100%;
+            margin: 20px;
+            margin-bottom: 100px; /* Bottom margin adjusted to 100px */
         }
 
         footer {
@@ -90,7 +88,7 @@
     </header>
 
          <!-- Button container -->
-        <div class="button-container">
+        <div class="top-bar">
             <a href="index.html" class="button">Home</a>
             <a href="#nil" class="button"><s>Season 1</s></a>
             <a href="#nil" class="button"><s>Season 2</s></a>
