@@ -86,19 +86,16 @@
         }
                 /* Responsive styles */
         @media screen and (max-width: 600px) {
-            main {
-                margin-bottom: 100px; /* Increase bottom margin for mobile */
-            }
-
             nav {
-                flex-direction: column;
+                flex-direction: row; /* Keep the row layout for smaller screens */
                 align-items: center;
+                overflow-x: auto; /* Add horizontal scrolling for small screens if needed */
             }
 
-            nav a {
-                margin: 5px 0;
-            }
-        }
+    nav a {
+        margin: 0 10px; /* Adjust margin between links */
+    }
+}
     </style>
 </head>
 
