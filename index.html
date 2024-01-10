@@ -84,6 +84,21 @@
             right: 0;
             width: 100%;
         }
+                /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            main {
+                margin-bottom: 100px; /* Increase bottom margin for mobile */
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
     </style>
 </head>
 
