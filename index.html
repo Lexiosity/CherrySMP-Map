@@ -83,6 +83,7 @@
         }
 
         footer {
+            position: fixed;
             text-align: center;
             padding: 10px;
             background-color: #5d086e;
@@ -94,6 +95,10 @@
         }
                 /* Responsive styles */
         @media screen and (max-width: 600px) {
+            iframe {
+                height: 320px; /* Adjust the height for smaller screens */
+                width: 240px
+            }
             main {
                 margin-bottom: 100px;
                 margin-left: 10px;  /* Adjust the left margin for mobile */
