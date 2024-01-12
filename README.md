@@ -9,7 +9,7 @@ A. Thanks to an existing software, Unmined, I was able to render the maps from t
 A. The current seasons will be updated monthly or every two months, depending on time and availability. The current seasons are updated not very often because so much happens in each season. All the previous seasons are updated to the most recent world download we have.
 
 ## Why are some of the seasons unavailable?
-A. As it says, they were lost in the cloud, meaning that they aren't available due to corruption (caused by the addons we had in the early days). To fix the corruption, we decided to go full vanilla with a few custom-made addons.
+A. As it says, they were lost in the void, meaning that they aren't available due to corruption (caused by the addons we had in the early days). To fix the corruption, we decided to go full vanilla with a few custom-made addons.
 
 ## I want to see more from you, how can I?
 A. I have a YouTube channel you can check out, just go to https://youtube.com/@Lexiosity. Hope you subscribe and like my content
